@@ -197,7 +197,7 @@ public:
     EthernetII* clone() const {
         return new EthernetII(*this);
     }
-private:
+protected:
     /**
      * Struct that represents the Ethernet II header
      */
